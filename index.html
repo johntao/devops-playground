@@ -17,8 +17,11 @@
     </a>
     <h1>Vite + TypeScript</h1>
     <div class="card">
-      <button x-on:click="count++" id="counter" type="button">
+      <button x-on:click="count++" type="button">
         Count is <span x-text="count"></span>
+      </button>
+      <button x-on:click="foo" type="button">
+        Message is <span x-text="msg"></span>
       </button>
     </div>
     <p class="read-the-docs">
