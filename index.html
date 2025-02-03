@@ -1,14 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/devops-playground/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-    <script type="module" crossorigin src="/devops-playground/assets/index-Dsxorwkp.js"></script>
-    <link rel="stylesheet" crossorigin href="/devops-playground/assets/index-dv8c_Ups.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/devops-playground/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+  <script type="module" crossorigin src="/devops-playground/assets/index-BN4i24LX.js"></script>
+  <link rel="stylesheet" crossorigin href="/devops-playground/assets/index-DKKJF7GN.css">
+</head>
+<body>
+  <div id="app" x-data="cnt" x-cloak>
+    <a href="https://vite.dev" target="_blank">
+      <img src="/devops-playground/vite.svg" class="logo" alt="Vite logo" />
+    </a>
+    <a href="https://www.typescriptlang.org/" target="_blank">
+      <img :src="logo" class="logo vanilla" alt="TypeScript logo" />
+    </a>
+    <h1>Vite + TypeScript</h1>
+    <div class="card">
+      <button x-on:click="count++" type="button">
+        Count is <span x-text="count"></span>
+      </button>
+      <button x-on:click="foo" type="button">
+        Message is <span x-text="msg"></span>
+      </button>
+    </div>
+    <p class="read-the-docs">
+      Click on the Vite and TypeScript logos to learn more
+    </p>
+  </div>
+</body>
+
 </html>
