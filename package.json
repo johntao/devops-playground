@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "alpinejs": "^3.14.8",
-    "dummy1": "file:../lib"
+    "dummy1": "johntao/dummy1"
   }
 }
