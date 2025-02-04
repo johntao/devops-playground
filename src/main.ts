@@ -1,6 +1,6 @@
 import './style.css'
 import Alpine from 'alpinejs';
-import { foo } from 'dummy1';
+import { foo } from '@johntao/dummy1';
 import logo from './typescript.svg';
 
 declare global {
